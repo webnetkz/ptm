@@ -55,6 +55,7 @@ class Atom {
 class Element {
   constructor(x, y, name, number, phase, color) {
     this.root = container.append("div");
+
     setStyle(this.root, {
       width: "5vw",
       height: "5vw",
