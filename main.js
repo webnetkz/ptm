@@ -199,6 +199,7 @@ function animate() {
 fetch("table.json")
   .then((response) => response.json())
   .then((data) => {
-      
+    createElements(data.elements);
     animate();
   });
+
